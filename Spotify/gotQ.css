@@ -1,0 +1,25 @@
+#gotQ{
+    /* border:2px solid red; */
+    height: 90vh;
+}
+#gotQ span{
+    /* border:2px solid red; */
+    margin:50px;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    
+
+}
+#gotQ>ul>li{
+    /* border :2px solid red; */
+    list-style: none;
+    padding: 38px;
+    font-size:25;
+    font-weight: bold;
+}
+#gotQ>ul>li:hover{
+    background-color: hsl(180, 15%, 92%);
+    
+}

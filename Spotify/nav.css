@@ -1,0 +1,52 @@
+
+@import url("./main.css");
+@import url("./midle.css");
+@import url("./midle2.css");
+@import url("./gotQ.css");
+@import url("./SecondLast.css");
+@import url("./lastpart.css");
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+}
+#nav{
+    /* border:2px solid ; */
+    height: 80px;
+    background-color: black;
+    color: white;
+    
+}
+#sub-nav{
+    /* border:2px solid red; */
+    height: inherit;
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+
+    
+}
+#sub-nav span svg{
+    height: 2.5em;
+    fill: aliceblue;
+
+}
+#sub-nav ol{
+    /* border: 2px solid green; */
+    list-style: none;
+    display:inline-flex;
+    width:40%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    font-weight:700 ;
+}
+#sub-nav ol li:hover{
+    color:green
+}
